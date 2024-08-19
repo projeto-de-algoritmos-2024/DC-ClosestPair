@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 10vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.firstHalf, .secondHalf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.firstHalf {
+  width: 60vw;
+}
+
+.secondHalf {
+  width: 25vw;
+  margin-right: 5vw;
+}
+
+.canvasStyle {
+  border: 5px solid blueviolet;
+  background-color: aliceblue;
+}
+
+.pointForms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.observation {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.buttonContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  margin-top: 5rem;
+}
+
+.addButton {
+  width: 100%;
+  color: white;
+  transition: .4s;
+  border: 2px solid white;
+}
