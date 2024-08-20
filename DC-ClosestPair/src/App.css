@@ -109,15 +109,22 @@ input {
   text-align: center;
   max-width: 400px;
   width: 80%;
+  border: 5px solid blueviolet;
 }
 
 .closeButton {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: blueviolet;
-  color: white;
-  border: none;
+  background-color: white;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  color: blueviolet;
+  transition: .4s;
+  border: 2px solid black;
+}
+
+.closeButton:hover {
+  background-color: black;
 }
