@@ -19,6 +19,32 @@ function App() {
   const [closestPair, setClosestPair] = useState([]);
   const [minDistance, setMinDistance] = useState(0);
 
+  // --------- Versão em força bruta ---------
+  // const findClosestPair = () => {
+  //   let minDistance = Infinity;
+  //   let closestPair = [];
+
+  //   for (let i = 0; i < points.length; i++) {
+  //     for (let j = i + 1; j < points.length; j++) {
+  //       const distance = Math.sqrt(
+  //         Math.pow(points[j].x - points[i].x, 2) +
+  //           Math.pow(points[j].y - points[i].y, 2)
+  //       );
+
+  //       if (distance < minDistance) {
+  //         minDistance = distance;
+  //         closestPair = [points[i], points[j]];
+  //       }
+  //     }
+  //   }
+
+  //   if (closestPair.length === 2) {
+  //     setClosestPair(closestPair);
+  //     setMinDistance(minDistance);
+  //     setModalVisible(true);
+  //   }
+  // };
+
   // Cria um novo ponto e o coloca no Canvas
   const drawPoint = () => {
     if (coorX >= 0 && coorY >= 0 && coorX <= 1000 && coorY <= 700) {

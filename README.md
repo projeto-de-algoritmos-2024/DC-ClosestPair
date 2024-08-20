@@ -10,21 +10,44 @@
 | 21/1062446 | Renan Araújo de Souza |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O objetivo do projeto é criar um Canvas onde o usuário pode colocar pontos da maneira que desejar para depois encontrar o par de pontos mais próximos através do método de dividir e conquistar.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="https://github.com/projeto-de-algoritmos-2024/DC_ClosestPair/blob/master/DC-ClosestPair/public/Print1.png?raw=true" alt="Screenshot 01" />
+<img src="https://github.com/projeto-de-algoritmos-2024/DC_ClosestPair/blob/master/DC-ClosestPair/public/Print2.png?raw=true" alt="Screenshot 02" />
+<img src="https://github.com/projeto-de-algoritmos-2024/DC_ClosestPair/blob/master/DC-ClosestPair/public/Print3.png?raw=true" alt="Screenshot 03" />
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: React<br>
+
+```
+git clone https://github.com/projeto-de-algoritmos-2024/DC_ClosestPair.git
+```
+
+```
+cd DC_ClosestPair
+```
+
+```
+cd DC-ClosestPair
+```
+
+```
+npm install
+```
+
+```
+npm run dev
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+- Utilize os inputs para criar quantos pontos novos quiser no Canvas;
+- Clique no botão "Buscar par de pontos mais próximos" para rodar o algoritmo e achar os pontos mais próximos, além da distância entre eles;
+- Recarregue a página para limpar o Canvas.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+[Link para o vídeo de apresentação do projeto](https://youtu.be/EiGn_Dovhk4)
 
 
 
